@@ -35,7 +35,6 @@ def bhaskara_estavel(a, b, c):
     return x1, x2
 
 
-# Testes simples
 print("=== Testes simples ===")
 print("x² - 5x + 6 = 0")
 print("Raízes:", bhaskara_comum(1, -5, 6))   # 2 e 3
@@ -43,7 +42,6 @@ print("Raízes:", bhaskara_comum(1, -5, 6))   # 2 e 3
 print("\nx² + 2x + 5 = 0")
 print("Raízes:", bhaskara_comum(1, 2, 5))    # complexas
 
-# Caso pedido na prova
 a = 1e-8
 b = -0.8
 c = 1e-8
